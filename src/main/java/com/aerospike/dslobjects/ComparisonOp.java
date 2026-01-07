@@ -6,7 +6,7 @@ public enum ComparisonOp {
     GT(">"),    // Greater Than
     LT("<"),    // Less Than
     GTE(">="),   // Greater Than or Equal
-    LTE(">=");   // Less Than or Equal
+    LTE("<=");   // Less Than or Equal
     
     private final String value;
     private ComparisonOp(String value) {
